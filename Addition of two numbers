@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+main() 
+{
+  int a, b, c;
+  printf("enter a, b values");
+  scanf("%d%d",&a,&b);
+  c=a+b;
+  printf("the sum is %d",c);
+}
+Output:
+enter a, b values10
+20
+the sum is 30
+Process finished.

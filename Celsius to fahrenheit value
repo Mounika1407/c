@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include<conio.h>
+main()
+{
+  float c,f,ce,fa;
+  printf("\n enter a celsius value to convert to fahrenheit");
+  scanf("%f",&c);
+  fa=(1.8*c+32);
+  printf("\n\t %0.2f celcius=%0.2f fahrenheit",c, fa);
+  printf("\n enter a fahrenheit value to convert to celsius");
+  scanf("%f",&f);
+  ce=(f-32)/1.8;
+  printf("\n\t %0.2f fahrenheit=%0.2f celsius",f, ce);
+  return 0;
+   }
+Output:
+
+ enter a celsius value to convert to fahrenheit36
+
+	 36.00 celcius=96.80 fahrenheit
+ enter a fahrenheit value to convert to celsius96.8
+
+	 96.80 fahrenheit=36.00 celsius
+Process finished.
